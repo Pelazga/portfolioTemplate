@@ -1,0 +1,314 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background-image: url(../images/wood-bg.jpg);
+}
+h1{
+   font-family:'Lovelo Black', 'Miriad Pro Regular', sans-serif;
+   font-size: 50px;
+   font-weight: bold;
+   color: #232227;
+}
+h2{
+   font-family:'Lovelo Black', 'Miriad Pro Regular', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 36px;
+   color: #232227;
+}
+#text1 span{
+   display: block;
+   font-family:'Lovelo Black', 'Miriad Pro Regular', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 18px;
+   color: #c45f5f;
+}
+h3{
+   font-family:'Lovelo Black', 'Miriad Pro Regular', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 14px;
+   text-transform: uppercase;
+}
+time{
+   display: inline-block;
+   font-family: 'Justus Oldstyle', 'Times New Roman', serif;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 14px;
+   color: #232227;
+   margin: 10px 0;
+}
+p{
+   font-family: 'Justus Oldstyle', 'Times New Roman', serif;
+   font-size: 14px;
+   color: #5c5b5f;
+   line-height: 24px;
+}
+#paperbg{
+   margin: 0 auto;
+   margin-top: 150px;
+}
+header{
+   overflow: hidden;
+   height: 150px;
+   width: 820px;
+   margin: 0 auto;
+}
+#textleft{
+   font-family: 'Justus Italic', 'Times New Roman Italic', serif;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 14px;
+   padding-right: 28px;
+   margin-top: 66px;
+   float: left;
+   width: 337px;
+   text-align: right;
+}
+#logo{
+   float: left;
+   width: 90px;
+   height: 100px;
+   margin-top: 31px;
+   background-image: url(../images/logo.png);
+   background-position: center center;
+}
+#textright{
+   font-family: 'Justus Italic', 'Times New Roman Italic', serif;
+   font-style: italic;
+   font-weight: bold;
+   color:#982e33;
+   font-size: 14px;
+   margin-top: 66px;
+   padding-left: 28px;
+   float: left;
+   width: 337px;
+   text-transform: uppercase;
+}
+#content{
+   width: 100%;
+   background-image: url(../images/paperbg.png);
+   background-repeat: no-repeat;
+   background-position: center 0;
+}
+#conttext{
+   width: 820px;
+   margin: 0 auto;
+   padding-top: 52px;
+   overflow: hidden;
+}
+#raw1{
+   overflow: hidden;
+   margin-bottom: 40px;
+}
+#H1{
+   height: 114px;
+   width: 820px;
+   background-image: url(../images/lines-for-h1.png);
+   background-position: center;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 112px;
+}
+#picture{
+   float: left;
+   margin-top: 36px;
+   margin-right: 33px;
+   width: 410px;
+   height: 236px;
+   border-top: 4px solid black;
+   position: relative;
+}
+#picture img{
+   position: relative;
+   z-index: 0
+}
+#picture a{
+   font-family:'Lovelo Black', 'Miriad Pro Regular', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 12px;
+   color: #e3e3e3;
+   text-decoration: none;
+   text-align: center;
+   line-height: 40px;
+   display: block;
+   width: 110px;
+   height: 40px;
+   background-color: black;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   z-index: 1;
+}
+#text1{
+   float: left;
+   height: 240px;
+   width: 340px;
+   border-left: 1px solid #c0c0c0;
+   margin-top: 35px;
+   padding-left: 34px;
+}
+
+#news{
+   overflow: hidden;
+   padding-top: 57px;
+}
+.article{
+   height: 135px;
+   width: 382px;
+   float: left;
+}
+
+.newstext{
+   width: 409px;
+   overflow: hidden;
+}
+.newstext img{
+   border-top: 4px solid #232227;
+   width: 180px;
+   margin-right: 20px;
+   float: left;
+}
+.newstext a{
+   font-family: 'Justus Oldstyle', 'Times New Roman', serif;
+   font-style: italic;
+   font-size: 14px;
+   font-weight: bold;
+   color: #c45f5f;
+   display: inline-block;
+   margin-top: 10px;
+}
+.vertdiv{
+   float: left;
+   height: 134px;
+   border-right: 1px solid #c0c0c0;
+   margin: 0 25px;
+}
+.hordiv{
+   margin-top: 42px;
+   margin-bottom: 41px;
+   width: 382px;
+   border-top: 1px solid #c0c0c0;
+}
+#leftdiv{
+   float: left;
+}
+#rightdiv{
+   float: right;
+}
+.raw3{
+   margin-top: 98px;
+}
+#points{
+   padding: 44px 0 28px;
+   margin: 0 auto;
+   height: 11px;
+   background: url(../images/pont-div.png) no-repeat 0 44px;
+}
+#about{
+   float: left;
+   width: 614px;
+   background-image: url(../images/blackverline.jpg);
+   background-repeat: no-repeat;
+   padding-left: 20px;
+}
+#about span{
+   display: block;
+   font-family: 'Justus Oldstyle', 'Times New Roman', serif;
+   font-style: italic;
+   font-size: 14px;
+   font-weight: bold;
+   color: #c45f5f;
+   margin-left: 4px;
+
+}
+#follow{
+   width: 186px;
+   float: right;
+}
+#follow h3{
+   margin-left: 6px;
+}
+#follow ul{
+   list-style: none;
+}
+#follow ul li{
+   float: left;
+   margin-left: 6px;
+}
+#follow ul li a{
+   text-indent: -9000px;
+   display: block;
+   width: 40px;
+   height: 40px;
+}
+#follow ul li a#ball{
+   background-image: url(../images/ball.png)
+}
+#follow ul li a#facebook{
+   background-image: url(../images/facebook.png)
+}
+#follow ul li a#tweeter{
+   background-image: url(../images/tweet.png)
+}
+#follow ul li a#google{
+   background-image: url(../images/google.png)
+}
+#follow ul li a#ball:hover{
+   background-image: url(../images/ball_hov.png)
+}
+#follow ul li a#facebook:hover{
+   background-image: url(../images/facebook_hov.png)
+}
+#follow ul li a#tweeter:hover{
+   background-image: url(../images/tweeter_hov.png)
+}
+#follow ul li a#google:hover{
+   background-image: url(../images/google_hov.png)
+}
+#logobottom{
+   clear: both;
+   padding-top: 14px;
+   margin-bottom: 27px;
+}
+#foofer{
+   height: 100px;
+   width: 820px;
+   margin: 0 auto;
+   position: relative;
+   overflow: hidden;
+}
+#cert{
+   float: left;
+   width: 300px;
+   color: #6e6862;
+   font-size: 14px;
+   line-height: 24px;
+   margin-top: 35px;
+}
+#cert p{
+   font-family:'Lovelo Black', 'Miriad Pro Regular', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+#cert address{
+   font-family: 'Justus Italic', 'Times New Roman Italic', serif;
+   font-style: italic;
+}
+#topbutt{
+   height: 79px;
+   width: 140px;
+   margin: 0 auto;
+   background: url(../images/totop.png) no-repeat center;
+}
+#topbutt a{
+   display: block;
+   height: 64px;
+   width: 110px;
+   margin: 0 auto;
+}
